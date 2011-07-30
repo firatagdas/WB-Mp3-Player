@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ 
+	<meta charset="UTF-8" /> 
+	<title>JQuery - Mp3 Player</title> 
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="wb-mp3player.css" type="text/css" charset="utf-8" />
+	
+	
+	<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/jquery.plugins.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/jquery.tools.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/wb-mp3player.js"></script>
+	
+	
+ 
+</head> 
+<body>
+
+<div id="player"></div>
+
+<script type="text/javascript"> $('#player').wbMp3Player('playlists/playlist.xml', { resourceType: 'xml', debug: true }); </script>
+
+</body>
+</html>

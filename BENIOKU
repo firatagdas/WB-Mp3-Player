@@ -1,0 +1,56 @@
+ /*=============================================================*\
+//===============================================================\\
+||                                                               ||
+||                                                               ||
+|| /\ \  __/\ \/\  _`\          Fırat AĞDAŞ                      ||
+|| \ \ \/\ \ \ \ \ \L\ \                                         ||
+||  \ \ \ \ \ \ \ \  _ <'       www.firatagdas.com               ||
+||   \ \ \_/ \_\ \ \ \L\ \      www.webmasterinbiri.com          ||
+||    \ `\___x___/\ \____/                                       ||
+||     '\/__//__/  \/___/                                        ||
+||                                                               ||
+\\===============================================================//
+ \*=============================================================*/
+
+WB Mp3 Player 0.8.0 Alpha
+===================================================================
+
+Copyright 2011, Fırat Ağdaş
+GPL Version 2 lisansı altındadır.
+
+Javascript, Flash ve CSS kombinasyonu bir Mp3 Player 'dır.
+
+Özellikleri
+===================================================================
+ * Çalma Listesi
+ * Karıştırma
+ * Yinelem
+ * Sürükleme
+ * Navigasyon Butonları
+ * Scroll
+ * Ses Kontrolleri
+ * Otomatik Oynatma
+ * Event Desteği (Henüz eklenmedi)
+ * Genişliği ve Yüksekliği Ayarlanabilir (Henüz eklenmedi)
+
+Gelecek Özellikler
+===================================================================
+ * Mp3 Sürelerini otomatik olarak alma (1.1.0)
+ * Çoklu Çalma Listesi Kontrolleri (1.1.0)
+
+Kullanılan Kütüphaneler
+===================================================================
+ * jQuery 1.5.2
+ * jquery.event.drag v2.0.0
+ * jQuery Easing v1.3
+ * jQuery Tools 1.2.4
+ * Flash (Mp3 Player - http://flash-mp3-player.net/)
+
+Skin
+===================================================================
+Flash Mp3 Player http://www.flashmp3player.org/
+
+Yayımlama İşlemi Düzeni
+===================================================================
+https://wiki.php.net/rfc/releaseprocess
+

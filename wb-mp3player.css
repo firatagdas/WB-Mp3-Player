@@ -1,0 +1,346 @@
+.wb-mp3player
+{
+	background-color: #ffffff;
+	width: 290px;
+	position: absolute;
+}
+
+.wb-mp3player, .wb-mp3player td, .wb-mp3player a
+{
+	font-family: arial, sans-serif, Geneva;
+	font-size: 10px;
+}
+
+.wb-mp3player a
+{
+	color: #292929;
+	text-decoration: none;
+}
+
+.wb-mp3player a:hover
+{
+	text-decoration: underline;
+}
+
+.wb-mp3player .border
+{
+	border: 1px solid #b1b1b1;
+}
+
+.wb-mp3player .border, .wb-mp3player .detail, .wb-mp3player .detail .move, .wb-mp3player .detail .context
+{
+	width: 288px;
+	float: left;
+}
+
+.wb-mp3player .detail .context
+{
+	height: 29px;
+}
+
+.wb-mp3player .detail .context-nomove
+{
+	height: 40px;
+}
+
+.wb-mp3player .detail
+{
+	clear: both;
+	border-top: 1px solid #b1b1b1;
+}
+
+.wb-mp3player .detail .move
+{
+	clear: both;
+	display: block;
+	height: 11px;
+	background: url("images/sprite.gif") no-repeat 0px -415px;
+	cursor: move;
+}
+
+.wb-mp3player .detail .move:hover
+{
+	background-position: 0px -425px;
+}
+
+.wb-mp3player a.expand, .wb-mp3player a.collapse
+{
+	clear: both;
+	display: block;
+	width: 21px;
+	height: 9px;
+	float: right;
+	*float: left;
+	margin-right: 18px;
+	*margin-left: 0px;
+	*margin-left: 18px;
+	background: url("images/sprite.gif") no-repeat scroll -49px -106px;
+	outline: 0px;
+	_font-size: 1px;
+}
+
+.wb-mp3player a.collapse
+{
+	background-position: -49px -115px;
+}
+
+.wb-mp3player .main
+{
+	width: 273px;
+}
+
+.wb-mp3player .scroll
+{
+	width: 14px;
+	border-left: 1px solid #b1b1b1;
+}
+
+.wb-mp3player .main, .wb-mp3player .scroll
+{
+	height: 249px;
+	float: left;
+}
+
+.wb-mp3player .playlist, .wb-mp3player .container, .wb-mp3player .playsong, .wb-mp3player .playsong-selected, .wb-mp3player .progress, .wb-mp3player .progressive, .wb-mp3player .controls
+{
+	width: 271px;
+	float: left;
+}
+
+.wb-mp3player .playlist
+{
+	padding: 0px 1px 0px 1px;
+	height: 228px;
+	overflow: hidden;
+}
+
+.wb-mp3player .progress, .wb-mp3player .progressive
+{
+	padding: 3px 0px 3px 0px;
+	background-image: url("images/sprite.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+
+.wb-mp3player .playsong, .wb-mp3player .playsong-selected
+{
+	margin-top: 1px;
+	background-color: #efefef;
+	color: #000000;
+}
+
+.wb-mp3player .playsong-selected
+{
+	background-color: #1294de;
+	color: #ffffff;
+}
+
+.wb-mp3player span
+{
+	cursor: pointer;
+	_cursor: hand;
+}
+
+.wb-mp3player .time
+{
+	display: block;
+	float: right;
+	width: 28px;
+	padding: 0px 3px 0px 3px;
+}
+
+.wb-mp3player .song
+{
+	display: block;
+	float: left;
+	width: 232px;
+	padding-left: 3px;
+}
+
+.wb-mp3player .song strong, .wb-mp3player .time
+{
+	font-size: 11px;
+}
+
+.wb-mp3player .controls
+{
+        margin-top: 2px;
+}
+
+.wb-mp3player .controls a
+{
+	display: block;
+	float: left;
+	width: 40px;
+	height: 17px;
+	background-image: url("images/sprite.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	border-left: 1px solid #fff;
+	cursor: pointer;
+	_cursor: hand;
+}
+
+.wb-mp3player .controls a.prev
+{
+	background-position: 0px 0px;
+}
+
+.wb-mp3player .controls a.prev:hover
+{
+	background-position: 0px -17px;
+}
+
+.wb-mp3player .controls a.play
+{
+	background-position: 0px -34px;
+}
+
+.wb-mp3player .controls a.play:hover
+{
+	background-position: 0px -51px;
+}
+
+.wb-mp3player .controls a.pause
+{
+	background-position: 0px -68px;
+}
+
+.wb-mp3player .controls a.pause:hover
+{
+	background-position: 0px -85px;
+}
+
+.wb-mp3player .controls a.stop
+{
+	background-position: 0px -102px;
+}
+
+.wb-mp3player .controls a.stop:hover
+{
+	background-position: 0px -119px;
+}
+
+.wb-mp3player .controls a.next
+{
+	background-position: 0px -136px;
+}
+
+.wb-mp3player .controls a.next:hover
+{
+	background-position: 0px -153px;
+}
+
+.wb-mp3player .controls a.volume, .wb-mp3player .controls a.volume-l0, .wb-mp3player .controls a.volume-l1, 
+.wb-mp3player .controls a.volume-l2, .wb-mp3player .controls a.volume-l3, .wb-mp3player .controls a.volume-l4, 
+.wb-mp3player .controls a.volume-l5, .wb-mp3player .controls a.volume-l6, .wb-mp3player .controls a.volume-l7, 
+.wb-mp3player .controls a.volume-l8, .wb-mp3player .controls a.volume-l9
+{
+	width: 70px;
+}
+
+.wb-mp3player .controls .volume-l0, .wb-mp3player .controls .volume
+{
+	background-position: 0px -170px;
+}
+
+.wb-mp3player .controls .volume-l1
+{
+	background-position: 0px -187px;
+}
+
+.wb-mp3player .controls .volume-l2
+{
+	background-position: 0px -204px;
+}
+
+.wb-mp3player .controls .volume-l3
+{
+	background-position: 0px -221px;
+}
+
+.wb-mp3player .controls .volume-l4
+{
+	background-position: 0px -238px;
+}
+
+.wb-mp3player .controls .volume-l5
+{
+	background-position: 0px -255px;
+}
+
+.wb-mp3player .controls .volume-l6
+{
+	background-position: 0px -272px;
+}
+
+.wb-mp3player .controls .volume-l7
+{
+	background-position: 0px -289px;
+}
+
+.wb-mp3player .controls .volume-l8
+{
+	background-position: 0px -306px;
+}
+
+.wb-mp3player .controls .volume-l9
+{
+	background-position: 0px -323px;
+}
+
+
+.wb-mp3player .controls a.mute, .wb-mp3player .controls a.mute-active
+{
+	width: 35px;
+}
+
+.wb-mp3player .controls a.mute
+{
+	background-position: 0px -340px;
+}
+
+.wb-mp3player .controls a.mute-active
+{
+	background-position: 0px -357px;
+}
+
+.wb-mp3player .scroll span
+{
+        display: block;
+        width: 14px;
+        background-image: url("images/sprite.gif");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+}
+
+.wb-mp3player .scroll span.up, .wb-mp3player .scroll span.down
+{
+        height: 10px;
+}
+
+.wb-mp3player .scroll span.up
+{
+        background-position: -58px 2px;
+}
+
+.wb-mp3player .scroll span.bar
+{
+	position: relative;
+        height: 70px;
+        background-position: -58px -12px;
+}
+
+.wb-mp3player .scroll span.barcontainer
+{
+	height: 229px;
+	_height: 223px;
+	background: none;
+	height: 227px;
+}
+
+.wb-mp3player .scroll span.down
+{
+        background-position: -58px -92px;
+}
